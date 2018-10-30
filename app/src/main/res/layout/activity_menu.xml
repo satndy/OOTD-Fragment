@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abuabu"
+    tools:context=".Menu">
+
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageButton5"
+        android:layout_marginTop="73dp"
+        android:background="@drawable/cari"
+        android:cropToPadding="false"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/source" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="129dp"
+        android:layout_marginStart="43dp"
+        android:background="@drawable/about" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:layout_alignStart="@+id/imageButton4"
+        android:layout_alignTop="@+id/imageButton5"
+        android:background="@drawable/exit" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButton3"
+        android:layout_marginStart="78dp"
+        android:text="Pantesin"
+        android:textColor="@color/putih" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageButton3"
+        android:layout_marginEnd="87dp"
+        android:textColor="@color/putih"
+        android:text="Source" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_below="@+id/imageButton5"
+        android:layout_marginTop="-132dp"
+        android:textColor="@color/putih"
+        android:text="About" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/imageButton5"
+        android:layout_marginTop="-132dp"
+        android:textColor="@color/putih"
+        android:text="Exit" />
+
+</RelativeLayout>
